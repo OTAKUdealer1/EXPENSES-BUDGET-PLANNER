@@ -1,14 +1,18 @@
 # EXPENSES-BUDGET-PLANNER
 Income Class &amp; Expense Calculator (C++) This program takes monthly income as input, classifies it as Poor, Middle, or Rich, and calculates expenses for food, gas, car, petrol, education, and dress based on fixed percentages. Displays total expenses and remaining balancE.
+
 Income Class & Expense Calculator (C++)
+
 Author names 🧑‍🎓👩‍🎓
 Name -Prabal Pratim Talukdar
-Enrollment number ADTU/0/2025-29/BCSM/070                                                                                                                                                                                                      Name -Vaishnavi Goswami 
-Enrollment  number-AdtU/0/2025-29/BCSM/041                                                                                                                                                                                                     Name: Bulanshree duarah 
-Enrollment number:ADTU/0/2025-29/BCSM/032                                                                                                                                                                                                      Name :Abdul Sahid 
-Enrollment number. AdtU/0/2025-29/BCSM/023                                                                                                                                                                                                      Name : Nur Alom                                                                                                                                                                                                                     Enrollment number. AdtU/0/2025-29/BCSM/023                                                                                                                                                                                                  Name : Bahniman  Bharadwaj
+Enrollment number ADTU/0/2025-29/BCSM/070                                                                                                                                                                                             Name -Vaishnavi Goswami 
+Enrollment  number-AdtU/0/2025-29/BCSM/041                                                                                                          Name: Bulanshree duarah 
+Enrollment number:ADTU/0/2025-29/BCSM/032                                                                                                             Name :Abdul Sahid 
+Enrollment number. AdtU/0/2025-29/BCSM/023                                                                     Name : Nur Alom                        Enrollment number. AdtU/0/2025-29/BCSM/023                                                                                                            Name : Bahniman  Bharadwaj
 Enrollment number 
 AdtU/0/2025-29/BCSM/054
+
+
 Name : Rahul kakaty 
 Enrollment number AdtU/0/2025-29/BCSM/079
 
