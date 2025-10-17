@@ -1,0 +1,64 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double income;
+    string category;
+
+    cout << "Enter your monthly income: ";
+    cin >> income;
+
+    // Check for valid input
+    if (cin.fail() || income < 0) {
+        cout << "Invalid income input!" << endl;
+        return 0;
+    }
+
+    // Determine class based on income
+    if (income < 20000) {
+        category = "Poor Class";
+    } 
+    else if (income >= 20000 && income <= 150000) {
+        category = "Middle Class";
+    } 
+    else {
+        category = "Rich Class";
+    }
+
+    // Display class type
+    cout << "\n=====================================" << endl;
+    cout << "You belong to the: " << category << endl;
+    cout << "=====================================" << endl;
+
+    // Expense calculations (same for all classes)
+    double food = income * 0.15;
+    double gas = income * 0.10;
+    double car = income * 0.10;
+    double petrol = income * 0.10;
+    double education = income * 0.35;
+    double dress = income * 0.20;
+
+    // Total and remaining
+    double totalExpenses = food + gas + car + petrol + education + dress;
+    double remaining = income - totalExpenses;
+
+    // Output results
+    cout << fixed << setprecision(2);
+    cout << "\nExpense Breakdown:\n";
+    cout << "-----------------------------" << endl;
+    cout << "Food:        Rs. " << food << endl;
+    cout << "Gas:         Rs. " << gas << endl;
+    cout << "Car:         Rs. " << car << endl;
+    cout << "Petrol:      Rs. " << petrol << endl;
+    cout << "Education:   Rs. " << education << endl;
+    cout << "Dress:       Rs. " << dress << endl;
+    cout << "-----------------------------" << endl;
+    cout << "Total Expenses:   Rs. " << totalExpenses << endl;
+    cout << "Remaining Balance: Rs. " << remaining << endl;
+    cout << "=============================\n";
+
+    // Pause for viewing (so console doesn’t close immediately)
+    system("pause");
+    return 0;
+}
