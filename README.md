@@ -40,8 +40,3 @@ Input/Output (cin, cout)
 Formatting output with <iomanip>
 Basic arithmetic operations
 
-⚙️ How to Run
-Open the code in Dev-C++ or any C++ IDE.
-Compile the program (Ctrl + F9 in Dev-C++).
-Run the program (Ctrl + F10).
-Enter your monthly income when prompted.
